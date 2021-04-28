@@ -50,7 +50,7 @@ bwa mem -t 2 /domus/h1/moten/2021_genanaly/proj_data/1_analyses/1_binning/combin
 samtools view -S -b /domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin2_39.sam > /domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin2_39.bam
 samtools sort /domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin2_39.bam > /domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin2_39_sorted.bam
 rm /domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin2_39.sam
-/domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin2_39.bam
+rm /domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin2_39.bam
 
 #BIN_3
 bwa index /domus/h1/moten/2021_genanaly/proj_data/1_analyses/1_binning/combined/3.fa
