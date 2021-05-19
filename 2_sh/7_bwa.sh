@@ -216,7 +216,7 @@ rm /domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin16_37.sam
 rm /domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin16_37.bam
 
 #for read2_39
-bwa mem -t 2 /domus/h1/moten/2021_genanaly/proj_data/1_analyses/1_binning/combined/14.fa /domus/h1/moten/2021_genanaly/proj_data/0_data/RNA_trimmed/SRR4342139_1_paired.fastq.gz /domus/h1/moten/2021_genanaly/proj_data/0_data/RNA_trimmed/SRR4342139_2_paired.fastq.gz  > /domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin16_39.sam
+bwa mem -t 2 /domus/h1/moten/2021_genanaly/proj_data/1_analyses/1_binning/combined/16.fa /domus/h1/moten/2021_genanaly/proj_data/0_data/RNA_trimmed/SRR4342139_1_paired.fastq.gz /domus/h1/moten/2021_genanaly/proj_data/0_data/RNA_trimmed/SRR4342139_2_paired.fastq.gz  > /domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin16_39.sam
 samtools view -S -b /domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin16_39.sam > /domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin16_39.bam
 samtools sort /domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin16_39.bam > /domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin16_39_sorted.bam
 rm /domus/h1/moten/2021_genanaly/proj_data/1_analyses/3_mapping/aln-bin16_39.sam
