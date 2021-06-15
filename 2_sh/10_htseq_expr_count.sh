@@ -17,10 +17,10 @@ echo ${i}
 echo "##############################"
 echo "SRR4342137"
 echo "##############################"
-python3 tryy.py /domus/h1/moten/2021_genanaly/proj_data/1_analyses/2_annotation/${i}/${i}.gff /domus/h1/moten/2021_genanaly/proj_data/1_analyses/5_read_counting/${i}_readcount_37.out
+python3 10_htseq_expr_count.py /domus/h1/moten/2021_genanaly/proj_data/1_analyses/2_annotation/${i}/${i}.gff /domus/h1/moten/2021_genanaly/proj_data/1_analyses/5_read_counting/${i}_readcount_37.out
 echo "##############################"
 echo "SRR4342139"
 echo "##############################"
-python3 tryy.py /domus/h1/moten/2021_genanaly/proj_data/1_analyses/2_annotation/${i}/${i}.gff /domus/h1/moten/2021_genanaly/proj_data/1_analyses/5_read_counting/${i}_readcount_39.out
+python3 10_htseq_expr_count.py /domus/h1/moten/2021_genanaly/proj_data/1_analyses/2_annotation/${i}/${i}.gff /domus/h1/moten/2021_genanaly/proj_data/1_analyses/5_read_counting/${i}_readcount_39.out
 done
 
